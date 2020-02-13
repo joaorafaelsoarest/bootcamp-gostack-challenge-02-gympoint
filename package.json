@@ -5,6 +5,10 @@
   "repository": "git@github.com:joaorafaelsoarest/bootcamp-gostack-challenge-02.git",
   "author": "joaorafaelsoarest <joao.rafael@dce.ufpb.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
